@@ -11,4 +11,9 @@ public class HelloWorldController {
         return "hello world";
     }
 
+    @GetMapping(path = "/about")
+    public String about()  {
+        return "This is about learning how to use spring-boot";
+    }
+
 }
